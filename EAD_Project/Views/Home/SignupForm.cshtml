@@ -1,0 +1,136 @@
+﻿@using EAD_Project.Models
+@model User
+<html>
+    <head>
+        <title>Signup</title>
+        <style>
+            
+			button: rgba(248,186,150,0.7);
+            body {
+                 background: #384047;
+                 font-family: sans-serif;
+                 font-size: 10px
+            }
+            form {
+                 background: #fff;
+                 padding: 2em 2em 1em;
+                 max-width: 400px;
+                 margin: 20px auto 0;
+                 box-shadow: 0 0 1em #222;
+                 border-radius: 10px;
+            }
+            h2 {
+                 
+                 padding:10px;
+                 text-align:center;
+                 font-size:30px;
+                 color:darken(#e5e5e5, 50%);
+                 border-bottom:solid 1px #e5e5e5;
+            }
+            p{
+                 margin: 0 0 2em 0;
+                 position: relative;
+            }
+            input {
+                 display: block;
+                 box-sizing: border-box;
+                 width: 100%;
+                 outline: none;
+                 margin:0;
+                 border-radius: 10px;
+            }
+            input[type="text"],input[type="password"] {
+                 background: #fff;
+                 border: 1px solid #dbdbdb;
+                 font-size: 1.6em;
+                 padding: .8em .5em;
+                 border-radius: 10px;
+            }
+            input[type="text"],input[type="email"] {
+                 background: #fff;
+                 border: 1px solid #dbdbdb;
+                 font-size: 1.6em;
+                 padding: .8em .5em;
+                 border-radius: 10px;
+            }
+            input[type="text"]:focus,input[type="password"]:focus {
+                 background: #fff
+            }
+            
+            input[type="submit"] {
+                 background: $button;
+                 box-shadow: 0 3px 0 0 darken($button, 10%);
+                 
+                 border-radius: 10px;
+                 border: solid thin OrangeRed;
+                 
+                 color: OrangeRed;
+                 cursor: pointer;
+                 display: block;
+                 font-size: 2em;
+                 line-height: 1.6em;
+                 margin: 1em 0 0;
+                 outline: none;
+                 padding: .4em 0;
+                 text-shadow: 0 1px #68B25B;
+            }
+            input[type="submit"]:hover {
+                 background:OrangeRed;
+                 border-radius:10px;
+                 color: #fff;
+                 text-shadow:0 1px 3px darken($button, 30%);
+            }
+            input[type="submit"]:hover {
+    
+            }
+            label{
+                 position: absolute;
+                 
+                 color: #999;
+                 font-size: 16px;
+                 display: inline-block;
+                 padding: 4px 10px;
+                 font-weight: 400;
+                 background-color: rgba(255,255,255,0);
+                 include transition(color .3s, top .3s, background-color .8s);
+                 &.floatLabel{
+                 top: -11px;
+                 background-color: rgba(255,255,255,0.8);
+                 font-size: 14px;
+                }
+	        }
+            a{
+                text-decoration:none;
+                color:orangered;
+            }
+        </style>
+    </head>
+    <body>
+        <form method = "post" action = "/Home/SignupForm">
+
+			<h2>Sign Up</h2>
+			<p>
+                
+				<label asp-for="Firstname">First Name</label>
+				<input asp-for= "Firstname" >
+			</p>
+            <p>
+                <label asp-for="Lastname">Last Name</label>
+				<input asp-for= "Lastname" required>
+            </p>
+            <p>
+                <label asp-for = "Email" class="floatLabel">Email</label>
+				<input asp-for = "Email" required>
+            </p>
+			<p>
+				<label for="password" class="floatLabel">Password</label>
+				<input id="password" name="password" type="password" required>
+			</p>
+			<p>
+				<input type="submit" value="Create My Account" id="submit">
+			</p>
+            <p>Already Have an Account? <a asp-action="LoginForm">Login</a> here</p>
+		</form>
+    </body>
+
+</html>

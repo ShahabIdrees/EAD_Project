@@ -1,0 +1,36 @@
+﻿@model List<EAD_Project.Models.User>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<head>
+    <title>DashBoard</title>
+</head>
+<body>
+    <h2 class=" text-center bg-black p-2 m-2 text-white">All of our users are displayed here</h2>
+    <div>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (EAD_Project.Models.User s in Model)
+                {
+                    <tr>
+                        <th>@s.Firstname</th>
+                        <th>@s.Lastname</th>
+                        <th>@s.Email</th>
+                        <th>@s.Password</th>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
