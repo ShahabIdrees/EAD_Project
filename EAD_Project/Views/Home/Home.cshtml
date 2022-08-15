@@ -1,1 +1,35 @@
-﻿
+﻿@model List<string>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html>
+<head>
+    <title>Home</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <style>
+        img{
+        height:700px;
+    }
+    </style>
+</head>
+<body>
+    <div id="slider">
+        @{
+            Html.RenderPartial("~/Views/Shared/_Slider.cshtml");
+        }
+    </div>
+    <div style="align-items:center; margin:auto;" id="Catagories">
+        <div class="container text-center" id="catagories">
+            @{
+                Html.RenderPartial("~/Views/Shared/_Catagories.cshtml");
+            }
+        </div>
+    </div>
+    <div id="top-products">
+        @{
+                Html.RenderPartial("~/Views/Shared/_Scrollable.cshtml");
+            }
+    </div>
+
+</body>
+</html>

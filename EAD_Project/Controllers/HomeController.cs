@@ -10,6 +10,13 @@ namespace EAD_Project.Controllers
         {
             return View();
         }
+        public ViewResult Home()
+        {
+            //List<string> Catagories = new List<string>(["Home and Kitchen", "Computers", "Electronics", "Men's Fashion", "Women's Fashion", "Health and Household", "Fitness", "Sports"]);
+
+            //Users = SaveUser.getAllUsers();
+            return View("Home");
+        }
         
         [HttpGet]
         public ViewResult SignupForm()
@@ -56,10 +63,10 @@ namespace EAD_Project.Controllers
         {
             return View("LoginForm");
         }
-        public ViewResult Home()
-        {
-            return View("Index");
-        }
+        //public ViewResult Home()
+        //{
+        //    return View("Index");
+        //}
         
         
     }

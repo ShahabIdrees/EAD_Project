@@ -8,45 +8,61 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = EAD_Project
 build_property.RootNamespace = EAD_Project
-build_property.ProjectDir = D:\New folder\EAD_Project\EAD_Project\
+build_property.ProjectDir = C:\Users\Shahab Prince\source\repos\EAD_Project\EAD_Project\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\New folder\EAD_Project\EAD_Project
+build_property.MSBuildProjectDirectory = C:\Users\Shahab Prince\source\repos\EAD_Project\EAD_Project
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/New folder/EAD_Project/EAD_Project/Views/Home/DashBoard.cshtml]
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/Home/DashBoard.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEYXNoQm9hcmQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/EAD_Project/EAD_Project/Views/Home/ErrorMessage.cshtml]
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/Home/ErrorMessage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvck1lc3NhZ2UuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/EAD_Project/EAD_Project/Views/Home/Home.cshtml]
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/Home/Home.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/EAD_Project/EAD_Project/Views/Home/IncorrectPass.cshtml]
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/Home/IncorrectPass.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmNvcnJlY3RQYXNzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/EAD_Project/EAD_Project/Views/Home/Index.cshtml]
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/EAD_Project/EAD_Project/Views/Home/LoginForm.cshtml]
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/Home/LoginForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbkZvcm0uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/EAD_Project/EAD_Project/Views/Home/SignupForm.cshtml]
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/Home/SignupForm.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxTaWdudXBGb3JtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/EAD_Project/EAD_Project/Views/Shared/_Layout.cshtml]
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/Shared/Components/Review/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUmV2aWV3XERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/Shared/_Catagories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXRhZ29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/New folder/EAD_Project/EAD_Project/Views/_ViewImports.cshtml]
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/Shared/_Scrollable.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY3JvbGxhYmxlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/Shared/_Slider.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TbGlkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Shahab Prince/source/repos/EAD_Project/EAD_Project/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

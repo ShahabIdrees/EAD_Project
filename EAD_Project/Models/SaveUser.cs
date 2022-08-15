@@ -6,7 +6,7 @@ namespace EAD_Project.Models
     {
         static public void SaveUserData(string firstname, string lastname, string email, string password)
         {
-            string ConnectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=UserData;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Rexix;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             SqlConnection con = new SqlConnection(ConnectionString);
             con.Open();
             string query = $"insert into User_Table(FirstName,LastName,Email,Password) values ('{firstname}','{lastname}','{email}','{password}')";
@@ -16,7 +16,7 @@ namespace EAD_Project.Models
         }
         static public string getUserPassword(string email)
         {
-            string ConnectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=UserData;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Rexix;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             SqlConnection con = new SqlConnection(ConnectionString);
             con.Open();
             string query = $"Select Password From User_Table Where Email = @u";
@@ -34,7 +34,7 @@ namespace EAD_Project.Models
         }
         static public List<User> getAllUsers()
         {
-            string ConnectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=UserData;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+            string ConnectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=Rexix;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
             SqlConnection con = new SqlConnection(ConnectionString);
             con.Open();
             string query = $"Select * From User_Table";

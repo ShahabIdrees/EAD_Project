@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\New folder\\EAD_Project\\EAD_Project\\EAD_Project.csproj": {}
+    "C:\\Users\\Shahab Prince\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj": {}
   },
   "projects": {
-    "D:\\New folder\\EAD_Project\\EAD_Project\\EAD_Project.csproj": {
+    "C:\\Users\\Shahab Prince\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\New folder\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
+        "projectUniqueName": "C:\\Users\\Shahab Prince\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
         "projectName": "EAD_Project",
-        "projectPath": "D:\\New folder\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
-        "packagesPath": "C:\\Users\\CUTY COMMPUTTER\\.nuget\\packages\\",
-        "outputPath": "D:\\New folder\\EAD_Project\\EAD_Project\\obj\\",
+        "projectPath": "C:\\Users\\Shahab Prince\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
+        "packagesPath": "C:\\Users\\Shahab Prince\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Shahab Prince\\source\\repos\\EAD_Project\\EAD_Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CUTY COMMPUTTER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Shahab Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,13 +40,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "ADO.Net.Client.Core": {
+              "target": "Package",
+              "version": "[1.4.4, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
-              "version": "[5.0.0-preview2.22096.2, )"
+              "version": "[4.1.0, )"
             },
             "Microsoft.Data.Sqlite": {
               "target": "Package",
               "version": "[7.0.0-preview.3.22175.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",
@@ -71,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }
