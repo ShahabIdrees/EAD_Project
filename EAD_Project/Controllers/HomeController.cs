@@ -10,12 +10,12 @@ namespace EAD_Project.Controllers
         {
             return View();
         }
-        public ViewResult Home()
+        public IActionResult Home()
         {
             //List<string> Catagories = new List<string>(["Home and Kitchen", "Computers", "Electronics", "Men's Fashion", "Women's Fashion", "Health and Household", "Fitness", "Sports"]);
 
             //Users = SaveUser.getAllUsers();
-            return View("Home");
+            return View();
         }
         
         [HttpGet]

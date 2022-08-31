@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Models\Data\" />
+    <Folder Include="Models\NewFolder\" />
   </ItemGroup>
 
   <ItemGroup>

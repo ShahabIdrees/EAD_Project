@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Shahab Prince\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj": {}
+    "C:\\Users\\shaha\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Shahab Prince\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj": {
+    "C:\\Users\\shaha\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Shahab Prince\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
+        "projectUniqueName": "C:\\Users\\shaha\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
         "projectName": "EAD_Project",
-        "projectPath": "C:\\Users\\Shahab Prince\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
-        "packagesPath": "C:\\Users\\Shahab Prince\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Shahab Prince\\source\\repos\\EAD_Project\\EAD_Project\\obj\\",
+        "projectPath": "C:\\Users\\shaha\\source\\repos\\EAD_Project\\EAD_Project\\EAD_Project.csproj",
+        "packagesPath": "C:\\Users\\shaha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shaha\\source\\repos\\EAD_Project\\EAD_Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Shahab Prince\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shaha\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +67,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -79,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.303\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -5,11 +5,6 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EAD_Project", "EAD_Project\EAD_Project.csproj", "{65673CA9-3B31-44E2-9D59-23493B8D70D1}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewComponent", "ViewComponent", "{A00FAFBC-7B5B-4BA9-8E4E-F50F66C4A71E}"
-	ProjectSection(SolutionItems) = preProject
-		ReviewComponent.cs = ReviewComponent.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

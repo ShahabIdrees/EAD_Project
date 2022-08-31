@@ -5,6 +5,5 @@ public class ReviewComponent
 	public Class1()
 	{
 
-
 	}
 }

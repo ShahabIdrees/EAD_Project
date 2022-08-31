@@ -7,29 +7,58 @@
     <title>Home</title>
     <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
     <style>
-        img{
-        height:700px;
-    }
+        img {
+            height: 750px;
+        }
+        /*#top-products{
+            height: 300px;
+            width: 100%;
+            overflow-x: scroll;
+            margin : 10px;
+        }
+        .top-products{
+            display: inline-block;
+        }*/
+        #Categories{
+            height: 600px;
+            width: 100%;
+            padding: 1%;
+            Margin: auto;
+            overflow-x:hidden;
+            overflow-y:auto;
+            margin-top: 10px;
+
+        }
+            
     </style>
 </head>
 <body>
     <div id="slider">
-        @{
-            Html.RenderPartial("~/Views/Shared/_Slider.cshtml");
-        }
+        <partial name="~/Views/Shared/_Slider.cshtml" />
     </div>
-    <div style="align-items:center; margin:auto;" id="Catagories">
-        <div class="container text-center" id="catagories">
-            @{
-                Html.RenderPartial("~/Views/Shared/_Catagories.cshtml");
-            }
+    <div id="Categories">
+        <h2 style="text-align: center;">Categories</h2>
+         <vc:category></vc:category>
+    </div>              
+    <div>
+        <h2 style="text-align: center;">Top Products</h2>
+        <div id="top-products">
+            
+            @await Component.InvokeAsync("TopProducts");
         </div>
     </div>
-    <div id="top-products">
+    
+    @*<div class="container-catagories text-center" style="margin-top: 10px" id="catagories">
         @{
-                Html.RenderPartial("~/Views/Shared/_Scrollable.cshtml");
-            }
-    </div>
+            Html.RenderPartial("~/Views/Shared/_Catagories.cshtml");
+        }
+    </div>*@
+
+    @*<div id="container-top-products" style="padding: 5%; margin-top:10px;">
+        @{
+            <partial name="~/Views/Shared/_Scrollable.cshtml"></partial>
+        }
+    </div>*@
 
 </body>
 </html>

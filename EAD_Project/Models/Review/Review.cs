@@ -2,6 +2,10 @@
 {
     public class Review
     {
-        public int MyProperty { get; set; }
+        private string title { get; set; }
+        public string description { get; set; }
+        public int likes { get; set; }
+        public int dislikes { get; set; }
+        public int replies { get; set; }
     }
 }

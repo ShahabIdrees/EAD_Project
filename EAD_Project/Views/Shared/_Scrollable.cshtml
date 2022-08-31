@@ -1,81 +1,93 @@
-﻿
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+﻿<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <style>
-    .horizontal-scrollable > .row {
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-          
-    .horizontal-scrollable > .row > .col-xs-4 {
-        display: inline-block;
-        float: none;
-    }
-          
+            .horizontal-scrollable > .row {
+                overflow-x: auto;
+                white-space: nowrap;
+            }
+
+            .horizontal-scrollable > .row > .col-xs-4 {
+                display: inline-block;
+                float: none;
+            }
+            /* Decorations */
+
+            /*.col-xs-4 {
+                font-size: 24px;
+                padding-bottom: 20px;
+                padding-top: 18px;
+                height: 500px;
+                width:400px;
+            }*/
+            .col{
+                height: 500px;
+                width:600px;
+            }
+
+            p{
+                white-space: initial;
+             }
 </style>
 
-<div class="container">
-		    <h3 style="text-align: left;">
-			    To make horizontal scrollable in a bootstrap row?
-		    </h3>
-			<div class="container horizontal-scrollable">
-				<div class="row text-center">
-                    <div class="col-xs-4">
-                        <div class="card" style="width: 18rem;">
-                          <h5 class="card-title">Sports</h5>
-                          <img src="/images/pexels-designecologist-1779487.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
+<h3 style="text-align: left;">
+    Top Products
+</h3>
+<div class="container horizontal-scrollable">
+    <div class="row text-center">
+        <div class="col-xs-4">
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <div>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     </div>
-                    <div class="col-xs-4">
-                        <div class="card" style="width: 18rem;">
-                          <h5 class="card-title">Sports</h5>
-                          <img src="images/penxels-designecologist-1779487.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-4">
-                        <div class="card" style="width: 18rem;">
-                          <h5 class="card-title">Sports</h5>
-                          <img src="images/penxels-designecologist-1779487.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xs-4">
-                        <div class="card" style="width: 18rem;">
-                          <h5 class="card-title">Sports</h5>
-                          <img src="images/penxels-designecologist-1779487.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-xs-4">
-                        <div class="card" style="width: 18rem;">
-                          <h5 class="card-title">Sports</h5>
-                          <img src="" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                          </div>
-                        </div>
-                      </div>
-					<div class="col-xs-4">1</div>
-					<div class="col-xs-4">2</div>
-					<div class="col-xs-4">3</div>
-					<div class="col-xs-4">4</div>
-					<div class="col-xs-4">5</div>
-					<div class="col-xs-4">6</div>
-					<div class="col-xs-4">7</div>
-				</div>
-			</div>
-		</div>
+
+                    <a href="#" class="card-link">Card link</a>
+                    <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-xs-4">
+            <div class="card" style="width: 18rem;">
+                <h5 class="card-title">Sports</h5>
+                <img src="images/penxels-designecologist-1779487.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="card" style="width: 18rem;">
+                <h5 class="card-title">Sports</h5>
+                <img src="images/penxels-designecologist-1779487.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="card" style="width: 18rem;">
+                <h5 class="card-title">Sports</h5>
+                <img src="images/penxels-designecologist-1779487.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-4">
+            <div class="card" style="width: 18rem;">
+                <h5 class="card-title">Sports</h5>
+                <img src="" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
